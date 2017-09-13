@@ -3,7 +3,7 @@
 
 ## 使用:
 ### 修改为自己的信息
-修改 `main.go` 中 `sourceID`, `receiverID` 为自己的信息, 需要按照 [alerover 配置指南](https://www.alertover.com/pages/api) 来获取
+修改 `main.go` 中 `sourceID`, `receiverID` 为自己的信息, 需要按照 [alertover 配置指南](https://www.alertover.com/pages/api) 来获取
 ### 编译 
 `go build -o sendmsg main.go`
 ### 用法
