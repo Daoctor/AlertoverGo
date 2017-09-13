@@ -48,7 +48,7 @@ func main() {
 
 	}
 	if len(content) > 1500 {
-		fmt.Print("Content to large\n")
+		fmt.Print("Content too large\n")
 		os.Exit(1)
 	}
 	postURL := "https://api.alertover.com/v1/alert"
